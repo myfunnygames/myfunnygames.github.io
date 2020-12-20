@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function setup() {
+            settings.general = {
+                next: {
+                    lion: 'rabbit',
+                    rabbit: 'cat',
+                    cat: 'lion'
+                }
+            };
+            settings.rabbit = {pieces_of_clothes: 5};
+            settings.cat = {pieces_of_clothes: 5};
+            settings.lion = {pieces_of_clothes: 5};
+
+            ('header').css('display', 'block');
+            $('footer').css('display', 'block');
+            $('#card').css('display', 'block');
+            $('#setup').css('display', 'none');
+
+            let stored_state = localStorage.getItem('state');
+            if (stored_state === null) set('l1');
+            else {
+                state = JSON.parse(stored_state);
+                load();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <section id="setup">
+		<h2>Setup</h2>
+		<p><input type="radio" name="order" value='{"lion":"rabbit","rabbit":"cat","cat":"lion"}'>🐰 is to the left of 🦁</p>
+		<p><input type="radio" name="order" value='{"lion":"cat","cat":"rabbit","rabbit":"lion"}'>🐱 is to the left of 🦁</p>
+		<h3>PoC</h3>
+		<p><input type="number">🦁 poc</p>
+		<p><input type="number">🐱 poc</p>
+		<p><input type="number">🐰 poc</p>
+		<button type="button" onclick="setup()">Start game</button>
+	</section>
+</body>
+</html>
