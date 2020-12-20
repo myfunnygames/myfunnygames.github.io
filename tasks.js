@@ -134,20 +134,20 @@ let tasks = {
             'All players have to take a sip for each bra size they have. (A=1, B=2, ...). Men included.',
             'Players who have never been caught during sex have to take a sip. The others have to tell their story.',
             'Demonstrate your favourite sex position to the other players with passion! Player 🐱 can assist you.',
-            'Wear one of your panties on your forehead for one round!',
-            'Write a perverted message to player 🐰 like an 1800 style letter. Try to cause player 🐰 to blush!'
+            'Show your current underwear by wearing it on your forehead for one round!',
+            'All players have to take a sip for each bra size they have. (A=1, B=2, ...). Men included.'
         ]
     },
     l5: {
         rabbit: [
             'Any player who has never recorded something sexual on camera has to take a sip.',
             'Tell the other players how you take care of your pubic hair!',
-            'Choose a different player to spank your butt!',
             'Demonstrate your blow job technique to the other players with a fruit!',
+            'Choose a male player to spank your butt!',
             'Tell the other players what you usually think about when touching yourself!',
+            'Turn around and guess what kind of sexual practice the other players engage in behind your back.',
             'Sit on player 🦁\'s lap and act as father and daughter!',
             'Take your shirt or top off, for the duration of one round!',
-            'Turn around and guess what kind of sexual practice the other players engage in behind your back.',
             'Describe the scent of player 🦁\'s penis to the other players. Figure out a way to experience the scent.',
             'The other players can decide what you have to do.'
         ],
@@ -155,8 +155,8 @@ let tasks = {
             'Have you ever experienced pain while having sex? Talk about it!',
             'Any player who has never experienced an orgasm has to take a sip.',
             'Demonstrate to the other players if you can open player 🦁\'s trousers and zipper with your mouth!',
+            'Take a very sexy picture of player 🐰! A picture that you would not share publicly.',
             'Drink if you have ever asked a man to cum onto you!',
-            'Take a really sexy picture of player 🐰! A picture that you would not share publicly.',
             'Kiss player 🦁 slowly from bellybutton down to the pants!',
             'Change one piece of your current clothing with one of player 🦁!',
             'Explain what you would do to make player 🦁 cum as fast as possible!',
