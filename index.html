@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="tasks.js"></script>
+	<script src="code.js"></script>
+</head>
+
+<body>
+	<header>
+		<p>Level ⟶</p>
+		<div class="level" id="l1" onclick="set('l1')">1</div>
+		<div class="level" id="l2" onclick="set('l2')">2</div>
+		<div class="level" id="l3" onclick="set('l3')">3</div>
+		<div class="level" id="l4" onclick="set('l4')">4</div>
+		<div class="level last" id="l5" onclick="set('l5')">5</div>
+		<p>⟶</p>
+	</header>
+
+	<section id="card">
+		<p class="number" id="card-number"></p>
+		<p class="arrow" id="card-arrow" onclick="load_second()">ᐅ</p>
+		<div class="icon"><p id="card-icon"></p></div>
+		<div class="text"><p id="card-text"></p></div>
+	</section>
+
+	<footer>
+		<div class="arrow" id="settings">⚙</div>
+		<div class="arrow" id="arrow-left" onclick="previous()">ᐊ </div>
+		<div class="arrow" id="arrow-right" onclick="next()"> ᐅ</div>
+	</footer>
+
+	<div style="background-color: #ffd549; height: 100%; width: 100%"></div>
+</body>
+</html>
