@@ -1,0 +1,130 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+header {
+    font-size: 30px;
+
+    padding: 15px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    background-color: #ffd549;
+}
+
+header p {
+    margin: 0px;
+}
+
+header .level {
+    text-align: center;
+    font-size: 60px;
+
+    width: 80px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    background-color: #bcbcbc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header .last {
+    border-style: dotted;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 15px;
+    background-color: #ffd549;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    position: relative;
+    top: -40px;
+}
+
+footer .arrow {
+    text-align: center;
+    font-size: 60px;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    background-color: #bcbcbc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#settings {
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#card {
+    width: 500px;
+    margin: 20px auto auto;
+}
+
+#card .icon {
+    font-size: 100px;
+    color: #c67500;
+
+    display: flex;
+    justify-content : center;
+    align-items: center;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #bcbcbc;
+    border-style: dotted;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card .number {
+    float: right;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+#card .text {
+    font-weight: bold;
+    font-size: 30px;
+    color: #c67500;
+
+    display: flex;
+    justify-content : center;
+    align-items: center;
+
+    height: 350px;
+    position: relative;
+    top: -70px;
+    right: -70px;
+    z-index: -1;
+    background-color: #bcbcbc;
+    border-style: dotted;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card .text p {
+    width: 400px;
+}
+
+#card .arrow {
+    font-size: 35px;
+    text-align: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: 200px;
+    left: 70px;
+    border-style: dotted;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
